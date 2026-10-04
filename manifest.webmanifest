@@ -1,0 +1,24 @@
+{
+  "id": "./capacity-tracker.html",
+  "name": "Capacity",
+  "short_name": "Capacity",
+  "description": "A private tracker for energy, backlog, and depth of work, with a recommended plan for each block.",
+  "start_url": "./capacity-tracker.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090b10",
+  "theme_color": "#0c0f14",
+  "categories": ["productivity", "health"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Start Block", "short_name": "Start", "description": "Begin a block with grounding", "url": "./capacity-tracker.html#start", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Check In", "short_name": "Check In", "description": "Log how the last block went", "url": "./capacity-tracker.html#checkin", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Timer", "short_name": "Timer", "description": "Open the block timer", "url": "./capacity-tracker.html#timer", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Plan Ahead", "short_name": "Plan", "description": "Forecast the next few blocks", "url": "./capacity-tracker.html#plan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
